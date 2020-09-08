@@ -1,0 +1,29 @@
+{
+  "name": "web3-randy-robin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodFatCat/web3-randy-robin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GodFatCat/web3-randy-robin/issues"
+  },
+  "homepage": "https://github.com/GodFatCat/web3-randy-robin#readme",
+  "devDependencies": {
+    "file-loader": "^4.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  }
+}

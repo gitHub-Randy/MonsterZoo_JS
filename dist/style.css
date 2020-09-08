@@ -1,0 +1,73 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel {
+    height: auto;
+    width: 300px;
+}
+
+.grid{
+    border: 1px solid black;
+    height: 95%;
+    margin: 5px;
+    width: auto;
+    display: grid;
+    padding: 5px;
+}
+
+.title{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.droppable {
+    width: 98px;
+    height: 98px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;
+}
+
+.undroppable {
+    width: 98px;
+    height: 98px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;
+}
+
+.invisable {
+    display: none;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+}
+Select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+}
+#weather{
+    position: fixed;
+    margin-bottom: 10px;
+    bottom: 0;
+    width: 200px;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;}
+#configurator{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}

@@ -1,0 +1,22 @@
+{
+  "Monsters": {
+    "Monster": [
+      {
+        "id": "1",
+        "type": "Water",
+        "amountArms": "0",
+        "armType": "Tentakels",
+        "amountFeet": "0",
+        "amountEyes": "0",
+        "furType": "Scales",
+        "canFly": "Yes",
+        "canSwim": "No",
+        "color": "Green",
+        "name": "Jim",
+        "zone": "Jungle",
+        "Location": "34",
+        "basePower": "12"
+      }
+    ]
+  }
+}
